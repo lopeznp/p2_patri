@@ -1,5 +1,5 @@
 void patri(float posx, float posy){
- pushMatrix();
+ push();
  translate(posx,posy);
    //cara
    ellipse(50,100,40,50);
@@ -29,5 +29,6 @@ void patri(float posx, float posy){
    arc(65, 136, 16, 16, -HALF_PI, HALF_PI);
    arc(73, 124, 14, 14, -HALF_PI, HALF_PI);
    arc(70, 112, 12, 12, -HALF_PI, HALF_PI);
- popMatrix();
+ pop();
 }
+
